@@ -39,8 +39,10 @@
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "nodemon": "^1.18.10",
+    "pg": "^7.8.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
+    "sequelize": "^4.42.0",
     "webpack": "^4.29.5",
     "webpack-cli": "^3.2.3"
   }
