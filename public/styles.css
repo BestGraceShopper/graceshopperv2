@@ -1,0 +1,10 @@
+#product-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    padding: 1rem;
+}

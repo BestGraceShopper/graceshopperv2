@@ -14,6 +14,10 @@ const Product = db.define('product', {
   imageUrl: {
     type: Sequelize.STRING,
     defaultValue: '/assets/images/placeholder.jpg'
+  },
+  price: {
+    type: Sequelize.INTEGER,
+    defaultValue: 500
   }
 });
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 
 class Navigationbar extends React.Component {
   render() {
@@ -9,7 +9,7 @@ class Navigationbar extends React.Component {
           <Navbar.Brand href="#home">Shopper</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#products">Products</Nav.Link>
+            <Nav.Link href="/products">Products</Nav.Link>
           </Nav>
         </Navbar>
       </div>
